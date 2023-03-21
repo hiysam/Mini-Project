@@ -3,14 +3,28 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev -p 3200",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.3.0",
+    "@prisma/client": "^4.11.0",
+    "formik": "^2.2.9",
+    "joi": "^17.9.0",
+    "jsonwebtoken": "^9.0.0",
+    "mdb-react-ui-kit": "^5.1.0",
+    "momen": "^0.0.1-security",
+    "moment": "^2.29.4",
     "next": "13.2.4",
+    "next-auth": "^4.20.1",
+    "next-connect": "^0.13.0",
+    "next-joi": "^2.2.1",
+    "prisma": "^4.11.0",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-data-table-component": "^7.5.3",
+    "react-dom": "18.2.0",
+    "yup": "^1.0.2"
   }
 }
